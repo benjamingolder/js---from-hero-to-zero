@@ -1,5 +1,5 @@
 const fruitPieces = function(fruit){
-    return fruit;
+    return fruit * 2;
 }
 
 const fruitProcessor = function(apples, organges){
