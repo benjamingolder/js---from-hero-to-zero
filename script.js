@@ -10,7 +10,7 @@ const fruitProcessor = function(apples, organges){
 }
 
 let applesInput = prompt("How many apples?");
-let organgesInput = promt("How many oranges");
+let organgesInput = prompt("How many oranges?");
 console.log(fruitProcessor(applesInput,organgesInput));
 
 
