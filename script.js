@@ -5,7 +5,7 @@ const fruitPieces = function(fruit){
 const fruitProcessor = function(apples, organges){
     const applePieces = fruitPieces(apples);
     const organgePieces = fruitPieces(organges);
-    const juice = `Juice with ${apples} apples and ${organges} organges`;
+    const juice = `Juice with ${applePieces} apples and ${organgePieces} organges`;
     return juice;
 }
 
